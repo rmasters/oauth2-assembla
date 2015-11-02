@@ -1,0 +1,30 @@
+{
+    "name": "rmasters/oauth2-assembla",
+    "license": "MIT",
+    "keywords": [
+        "oauth2",
+        "assembla"
+    ],
+    "authors": [
+        {
+            "name": "Ross Masters",
+            "email": "ross@rossmasters.com",
+            "homepage": "http://rossmasters.com/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/rmasters/oauth2-assembla",
+    "support": {
+        "issues": "https://github.com/rmasters/oauth2-assembla/issues",
+        "source": "https://github.com/rmasters/oauth2-assembla"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rmasters\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
